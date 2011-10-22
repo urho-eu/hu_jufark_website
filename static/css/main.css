@@ -178,6 +178,7 @@ width:767px;
 }
 
 #header {
+display: block;
 background-image:url(../img/header.jpg);
 background-repeat:no-repeat;
 height:103px;
@@ -274,7 +275,7 @@ padding-top:20px;
 vertical-align:middle;
 text-align:center;
 background-color:#4D5651;
-width:755px; 
+width:755px;
 height:36px;
 color:#FFFFFF;
 margin:0;
@@ -331,12 +332,12 @@ float:left;
 margin:6px 0 0;
 }
 
-.mid_column .block350_middle .leaf, .mid_column .block350_middle_wines .leaf {     
+.mid_column .block350_middle .leaf, .mid_column .block350_middle_wines .leaf {
 float:left;
 margin:6px 0 0 30px;
 }
 
-.mid_column .block350_middle .list {     
+.mid_column .block350_middle .list {
 float:none;
 display: block;
 clear: both;
@@ -350,7 +351,7 @@ list-style-image:url(../img/bullet.gif);
 height: 15em;
 }
 
-.mid_column .block350_middle_wines .node-295 {     
+.mid_column .block350_middle_wines .node-295 {
 float:left;
 left:-2em;
 position:relative;
@@ -384,7 +385,7 @@ min-height: 173px;
 */
 
 /* frontpage styles */
-.fp_content { 
+.fp_content {
 background:transparent url(../img/rb.png) repeat-y scroll 0 0;
 float:right;
 margin:0;
@@ -415,7 +416,7 @@ padding: 0;
 width: 250px;
 }
 
-.fp_leftimage { 
+.fp_leftimage {
 float: left;
 background: white;
 }
