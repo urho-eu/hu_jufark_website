@@ -13,3 +13,20 @@ msgstr ""
 msgid "label_copyright"
 msgstr "Copyright © 2009-2011 by juhfark.hu"
 
+msgid "title_opening_page"
+msgstr "Opening Page"
+
+msgid "title_wines_page"
+msgstr "Wines"
+
+msgid "title_blog_page"
+msgstr "Blog"
+
+msgid "title_aboutus_page"
+msgstr "About Us"
+
+msgid "title_news_page"
+msgstr "News"
+
+msgid "title_contactus_page"
+msgstr "Contact Us"

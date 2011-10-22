@@ -11,5 +11,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "label_copyright"
-msgstr "Minden jog védve © 2009-2011 juhfark.hu"
+msgstr "Minden jog fenntartva © 2009-2011 juhfark.hu"
 
+msgid "title_opening_page"
+msgstr "Kezdőlap"
+
+msgid "title_wines_page"
+msgstr "Boraink"
+
+msgid "title_blog_page"
+msgstr "Blog"
+
+msgid "title_aboutus_page"
+msgstr "Magunkról"
+
+msgid "title_news_page"
+msgstr "Hírek"
+
+msgid "title_contactus_page"
+msgstr "Elérhetőség"
