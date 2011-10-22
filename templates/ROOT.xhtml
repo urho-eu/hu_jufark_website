@@ -9,14 +9,14 @@
 
     <link type="text/css" href="/midgardmvc-static/hu_juhfark_website/css/main.css" rel="stylesheet" />
     <link rel="icon" href="/midgardmvc-static/hu_juhfark_website/img/favicon.ico" />
+
+    <!--mgd:include>juhfark_google_analytics</mgd:include-->
   </head>
   <body>
     <div id="container">
-      <div id="header"></div>
+      <a href="/" id="header"></a>
       <div id="blockgrey">
-        <div id="nav">
-          <mgd:include>juhfark_navi_top</mgd:include>
-        </div>
+        <mgd:include>juhfark_navi_top</mgd:include>
       </div>
       <div class="wrapper">
         <div class="mid_column">
@@ -31,9 +31,8 @@
         </div>
       </div>
       <div id="blockgrey">
-        <div class="copyright" i18n:translate="'label_copyright'">Copyright © 2009-2011 by juhfark.hu</div>
+        <div class="copyright" i18n:domain="hu_juhfark_website" i18n:translate="'label_copyright'">Copyright © 2009-2011 by juhfark.hu</div>
       </div>
     </div>
-    <mgd:include>juhfark_google_analytics</mgd:include>
   </body>
 </html>
