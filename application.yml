@@ -23,8 +23,13 @@ components:
     midgardmvc_ui_create:
         - {type: github, user: bergie, repository: midgardmvc_ui_create, branch: master}
     org_midgardproject_news:
-        - {type: github, user: bergie, repository: org_midgardproject_news, branch: master}
+        - {type: github, user: urho-eu, repository: org_midgardproject_news, branch: master}
 nodes:
-    title: juhfark.hu
-    content: <p>Welcome!</p>
+    title: Somlói Apátsági Pince
+    content: <p>Örülünk, hogy eljutott hozzánk a világhálón is!</p>
     component: hu_juhfark_website
+    children:
+        news:
+            title: title_latest_news
+            content: latest news
+            component: org_midgardproject_news
