@@ -1,0 +1,596 @@
+body {
+background:#ECECEC none repeat scroll 0 0;
+color:#666666;
+font-family:Arial;
+font-size:11px;
+margin:0;
+}
+
+a {
+color:#73953F;
+}
+
+a:link {
+text-decoration:none;
+}
+
+a:visited {
+text-decoration:none;
+}
+
+a:hover {
+text-decoration:none;
+}
+
+a:active {
+text-decoration:none;
+}
+
+h1 {
+color:#73953E;
+font-family:Verdana,Arial;
+font-size:14px;
+margin: 0 0 10px 0;
+}
+
+h2 {
+color:#666C68;
+font-family:Verdana,Arial;
+font-size:12px;
+}
+
+h3 {
+background:transparent url(../img/bar.jpg) no-repeat scroll 0 0;
+color:#FFFFFF;
+font-family:Verdana,Arial;
+font-size:12px;
+height:22px;
+margin:0;
+padding:3px;
+width:175px;
+}
+
+h4 {
+color:#97BB61;
+font-family:Verdana,Arial;
+font-size:14px;
+}
+
+h5 {
+color:#73953E;
+font-family:Verdana,Arial;
+font-size:11px;
+margin-bottom:3px;
+}
+
+h6 {
+color:#666666;
+font-family:Verdana,Arial;
+font-size:11px;
+margin:0;
+}
+
+label {
+color:#666C68;
+font-family:Arial;
+font-size:11px;
+}
+
+form {
+margin-left:20px;
+}
+
+.h7 {
+color:#97BB61;
+font-family:Arial;
+font-size:12px;
+font-weight:bold;
+margin-bottom:15px;
+margin-top:20px;
+}
+
+.normaltext {
+color:#666666;
+font-family:Arial;
+font-size:11px;
+font-weight:normal;
+}
+
+.contactform {
+border:1px solid #B4B4B4;
+font-size:10px;
+width:200px;
+}
+
+.imageborder {
+border:1px solid #CCCCCC;
+}
+
+.asterisk {
+color:#73953E;
+font-family:Verdana;
+font-size:11px;
+margin:0 3px;
+}
+
+.imgleft {
+margin-right:10px;
+}
+
+.dottedline {
+background:transparent url(../img/dotted.gif) repeat-x scroll center center;
+height:10px;
+}
+
+.block427_top {
+background:transparent url(../img/427block.top.jpg) no-repeat scroll 0 0;
+height:14px;
+width:427px;
+margin: 1em 0 0 0;
+}
+
+.block427_middle {
+background:transparent url(../img/427block.middle.jpg) repeat-y scroll 0 0;
+padding-left:15px;
+width:412px;
+}
+
+.block427_bottom {
+background:transparent url(../img/427block.bottom.jpg) repeat-y scroll 0 0;
+height:22px;
+width:427px;
+}
+
+.block350_top {
+background:transparent url(../img/350block.top.jpg) no-repeat scroll 0 0;
+height:15px;
+width:350px;
+}
+
+.block350_middle_wines {
+background:transparent url(../img/350block.middle.jpg) repeat-y scroll 0 0;
+height:10em;
+width:350px;
+}
+
+.block350_bottom {
+background:transparent url(../img/350block.bottom.jpg) repeat-y scroll 0 0;
+height:17px;
+width:350px;
+}
+
+#subnav {
+margin-left:10px;
+}
+
+#subnav li {
+list-style-image:url(../img/bullet.gif);
+}
+
+#subnav ul {
+margin-left:0;
+padding-left:0;
+}
+
+#container {
+margin:auto;
+width:767px;
+}
+
+#header {
+background-image:url(../img/header.jpg);
+background-repeat:no-repeat;
+height:103px;
+margin-top:16px;
+width:767px;
+}
+
+/* top navigation */
+#nav {
+background:transparent url(../img/nav.bar.gif) no-repeat scroll 0 0;
+height:32px;
+margin:0 0 0 0;
+padding: 0 26px 0 55px;
+width:673px;
+}
+
+#nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#nav ul li {
+display: inline;
+}
+
+#nav ul li .b_left_out, #nav ul li .b_left_in {
+width: 8px;
+height: 32px;
+float: left;
+}
+
+#nav ul li .b_center_out, #nav ul li .b_center_in {
+width: 90px;
+height: 32px;
+float: left;
+text-align: center;
+}
+
+#nav ul li .b_center_out span, #nav ul li .b_center_in span {
+position: relative;
+top: 9px;
+font-weight: bold;
+color: white;
+}
+
+#nav ul li .b_right_out, #nav ul li .b_right_in {
+width: 9px;
+height: 32px;
+float: left;
+margin: 0 3px 0 0;
+}
+
+#nav ul li .b_left_out {
+background: transparent url(../img/button-left-out.jpg) repeat-x scroll 0 0;
+}
+
+#nav ul li .b_center_out {
+background: transparent url(../img/button-center-out.jpg) repeat-x scroll 0 0;
+}
+
+#nav ul li .b_right_out {
+background: transparent url(../img/button-right-out.jpg) repeat-x scroll 0 0;
+}
+
+#nav ul li .b_left_in {
+background: transparent url(../img/button-left-in.jpg) repeat-x scroll 0 0;
+}
+
+#nav ul li .b_center_in {
+background: transparent url(../img/button-center-in.jpg) repeat-x scroll 0 0;
+}
+
+#nav ul li .b_right_in {
+background: transparent url(../img/button-right-in.jpg) repeat-x scroll 0 0;
+}
+
+#blockgrey {
+background: transparent url(../img/bg.jpg) repeat-y scroll 0 0;
+padding:0px 0px 0px 6px;
+clear: both;
+}
+
+#product_listing {
+margin-right:35px;
+}
+
+#nav img {
+border:0 none;
+}
+
+.copyright {
+padding-top:20px;
+vertical-align:middle;
+text-align:center;
+background-color:#4D5651;
+width:755px; 
+height:36px;
+color:#FFFFFF;
+margin:0;
+}
+
+#nav img {
+border: 0;
+}
+
+/* regular pages */
+.left_column {
+background: transparent url(../img/bg.jpg) repeat-y scroll 0 0;
+width: 116px;
+float: left;
+}
+
+.wrapper {
+background: transparent url(../img/bg.jpg) repeat-y scroll 0 0;
+float: left;
+min-height: 143px;
+overflow: hidden;
+}
+
+.mid_column {
+background: transparent url(../img/bg.jpg) repeat-y scroll 0 0;
+float: left;
+padding: 30px 20px 0 140px;
+/*border-right: 1px lightgray dashed;*/
+width: 438px;
+min-height: 143px;
+}
+
+.mid_column p {
+display: block;
+text-align: justify;
+margin: 1em 0 0 0;
+}
+
+.mid_column p img {
+margin: 5px;
+}
+
+.mid_column .block350_middle, .mid_column .block350_middle_wines {
+padding: 0;
+}
+
+.mid_column .block350_middle .bottle, .mid_column .block350_middle_wines .bottle {
+float:left;
+margin:6px 10px 0;
+}
+
+.mid_column .block350_middle h3, .mid_column .block350_middle_wines h3 {
+float:left;
+margin:6px 0 0;
+}
+
+.mid_column .block350_middle .leaf, .mid_column .block350_middle_wines .leaf {     
+float:left;
+margin:6px 0 0 30px;
+}
+
+.mid_column .block350_middle .list {     
+float:none;
+display: block;
+clear: both;
+}
+
+.mid_column .block350_middle .list li {
+list-style-image:url(../img/bullet.gif);
+}
+
+.mid_column .block350_middle_wines {
+height: 15em;
+}
+
+.mid_column .block350_middle_wines .node-295 {     
+float:left;
+left:-2em;
+position:relative;
+}
+
+.bottom {
+float: left;
+margin-bottom: -173px;
+}
+
+.footy {
+clear: none;
+float: left;
+position: relative;
+left: -133px;
+top: -173px;
+}
+
+.right_column {
+/*background: transparent url(../img/bg_right.jpg) repeat-y scroll 0 0;*/
+float: left;
+padding: 0;
+width: 169px;
+min-height: 200px;
+}
+
+/*
+.clear {
+min-height: 173px;
+}
+*/
+
+/* frontpage styles */
+.fp_content { 
+background:transparent url(../img/rb.png) repeat-y scroll 0 0;
+float:right;
+margin:0;
+min-height:350px;
+padding:0;
+width:548px;
+}
+
+.fp_welcome {
+padding: 0;
+text-align: justify;
+margin: 0 2em 0 0;
+}
+
+.fp_welcome h4 {
+margin: 0;
+}
+
+.fp_boxes {
+margin: 1.5em 0 0 0;
+float: left;
+}
+
+
+.fp_boxes .block350_middle {
+float: left;
+padding: 0;
+width: 250px;
+}
+
+.fp_leftimage { 
+float: left;
+background: white;
+}
+
+.fp_rightbar {
+background: transparent url(../img/bg_right.jpg) repeat-y scroll 0 0;
+float: left;
+padding: 10px 0 0 10px;
+width: 158px;
+min-height: 340px;
+}
+
+.fp_rightbar h5 {
+padding: 0 0 0 0;
+}
+
+.fp_rightbar p {
+margin: 1em 1em 0 0;
+display: block;
+text-align: justify;
+}
+
+/* maintenance box and login box */
+div .maintenancebox {
+background: transparent url(../img/bg.jpg) repeat-y scroll 0 0;
+padding: 10px;
+float: left;
+margin: 0;
+width: 510px;
+height: 157px;
+padding: 30px 0 0 88px;
+}
+
+div .maintenancebox h3 {
+float: left;
+margin-top: 0em;
+margin-bottom: 0.5em;
+}
+
+div .maintenancebox h2 {
+margin-top: 0em;
+margin-bottom: 0.5em;
+font-size: 90%;
+}
+
+div .loginbox {
+background: transparent url(../img/bg_right.jpg) repeat-y scroll 0 0;
+float: right;
+padding: 20px 0 0 5px;
+margin: 0;
+height: 167px;
+width: 164px;
+}
+
+div .loginbox form {
+margin: 0;
+}
+
+div .loginbox form input{
+margin: 0;
+width: 120px;
+}
+
+/* latest products and shop list on the frontpage */
+#fp_latest_products .bottle, #fp_shops .bottle {
+float:left;
+margin: 6px 10px 0 10px;
+}
+
+#fp_latest_products h3, #fp_shops h3 {
+float:left;
+margin: 6px 0 0 0;
+}
+
+#fp_latest_products .leaf, #fp_shops .leaf {
+float:left;
+margin: 6px 0 0 30px;
+}
+
+#fp_latest_products ul, #fp_shops ul {
+float: left;
+position: relative;
+left: -2em;
+}
+
+#fp_latest_products ul li, #fp_shops ul li {
+list-style-image:url(../img/bullet.gif);
+}
+
+/* products page */
+.catalog {
+margin: 0 1.5em 0 0;
+}
+
+.catalog h3 {
+/*float: left;*/
+margin: 0 0 1em 0;
+clear: both;
+display:  block;
+}
+
+.catalog .leaf {
+float: right;
+margin: 0 20px 10px 0;
+}
+
+.catalog .product {
+clear: both;
+overflow: hidden;
+margin: 10px 0 0 0;
+padding: 0 0 0 0;
+}
+
+.catalog .product .bottle {
+border: 1px solid grey;
+float: left;
+margin: 0 1em 0 0;
+width: 50px;
+}
+
+.catalog .product p {
+display: block;
+}
+
+.wine {
+min-height: 18em;
+}
+
+.wine .images {
+float: left;
+margin: 0 1em 0 0;
+width: 100px;
+}
+
+.wine .images img {
+max-width: 100px;
+}
+
+.wine .details {
+margin: 0 1em 0 0;
+}
+
+.wine .details .properties {
+list-style: none;
+/*float: left;*/
+margin: 0 1em 0 0;
+padding: 0 0 1em 0;
+clear: right;
+}
+
+.wine .details p {
+margin: 0em 1em 0 0;
+/*
+float: left;
+width: 25em;
+*/
+}
+
+
+/* blogs */
+.hentry .published {
+display: block;
+}
+
+.hentry .excerpt {
+display: block;
+margin: 1em 0 0 0;
+}
+
+.hentry .content {
+display: block;
+text-align: justify;
+margin: 1em 0 1em 0;
+}
+
+table.mceLayout {
+width: 420px;
+}
