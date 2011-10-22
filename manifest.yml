@@ -1,0 +1,16 @@
+version: 0.0.1
+
+authors:
+    ferenc:
+        name: Ferenc Szekely
+        email: ferenc.szekely@urho.eu
+        url: http://urho.eu/en
+    zoltan:
+        name: Zoltan Balogh
+        email: zoltan@bakter.hu
+        url: http://juhfark.hu
+
+
+template_injector: hu_juhfark_website_injector
+
+extends: midgardmvc_core
