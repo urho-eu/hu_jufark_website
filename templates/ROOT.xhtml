@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="hu-HU">
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow"/>
+    <meta name="description" content="Somlói kézműves, terroir borok. Hagyományos somló fajtákból, mint a juhfark, furmint és hárslevelű" />
+
+    <tal:block tal:replace="php: MIDCOM.head.print_elements()" />
+
+    <link type="text/css" href="/midgardmvc-static/hu_juhfark_website/css/main.css" rel="stylesheet" />
+    <link rel="icon" href="/midgardmvc-static/hu_juhfark_website/img/favicon.ico" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header"></div>
+      <div id="blockgrey">
+        <div id="nav">
+          <mgd:include>juhfark_navi_top</mgd:include>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="mid_column">
+          <mgd:include>content</mgd:include>
+
+          <div class="clear">&nbsp;</div>
+          <div class="bottom">
+            <img class="footy" alt="wine" src="/midgardmvc-static/hu_juhfark_website/img/wine.jpg"/>
+          </div>
+        </div>
+        <div class="right_column">
+          <mgd:include>juhfark_mini_toc</mgd:include>
+        </div>
+      </div>
+      <div id="blockgrey">
+        <div class="copyright" i18n:translate="'label_copyright'">Copyright © 2009-2011 by juhfark.hu</div>
+      </div>
+     <mgd:include>juhfark_google_analytics</mgd:include>
+  </body>
+</html>
