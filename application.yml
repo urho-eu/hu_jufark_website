@@ -1,0 +1,30 @@
+services_dispatcher: appserv
+providers_component: midgardmvc
+providers_hierarchy: midgard2
+
+services_authentication_authtype: SHA1
+services_authentication_authtypes:
+    - SHA1
+    - OpenID
+
+development_mode: true
+
+default_language: hu_HU
+
+components:
+    midgardmvc_core:
+        - {type: github, user: midgardproject, repository: midgardmvc_core, branch: master}
+    midgardmvc_helper_forms:
+        - {type: github, user: midgardproject, repository: midgardmvc_helper_forms, branch: master}
+    hu_juhfark__website:
+        - {type: github, user: urho-eu, repository: hu_jufark_website.git, branch: master}
+    fi_openkeidas_articles:
+        - {type: github, user: nemein, repository: fi_openkeidas_articles, branch: master}
+    midgardmvc_ui_create:
+        - {type: github, user: bergie, repository: midgardmvc_ui_create, branch: master}
+    org_midgardproject_news:
+        - {type: github, user: bergie, repository: org_midgardproject_news, branch: master}
+nodes:
+    title: juhfark.hu
+    content: <p>Welcome!</p>
+    component: hu_juhfark_website
