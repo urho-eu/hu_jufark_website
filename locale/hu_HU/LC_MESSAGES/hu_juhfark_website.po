@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+
+"Project-Id-Version: juhfark.hu\n"
+"Report-Msgid-Bugs-To:\n"
+"PO-Revision-Date:\n"
+"Last-Translator:\n"
+"Language-Team: info <info@juhfark.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "label_copyright"
+msgstr "Minden jog védve © 2009-2011 juhfark.hu"
+
