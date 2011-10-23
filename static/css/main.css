@@ -614,6 +614,7 @@ float: left;
 margin: 5px;
 }
 
+article div.GENTICS_editable,
 article div.content {
 min-width: 100px;
 min-height: 100px;
