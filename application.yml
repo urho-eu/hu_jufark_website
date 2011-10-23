@@ -14,14 +14,16 @@ default_language: hu_HU
 components:
     midgardmvc_core:
         - {type: github, user: midgardproject, repository: midgardmvc_core, branch: master}
-    midgardmvc_helper_forms:
-        - {type: github, user: midgardproject, repository: midgardmvc_helper_forms, branch: master}
-    hu_juhfark__website:
-        - {type: github, user: urho-eu, repository: hu_jufark_website.git, branch: master}
-    fi_openkeidas_articles:
-        - {type: github, user: nemein, repository: fi_openkeidas_articles, branch: master}
     midgardmvc_ui_create:
         - {type: github, user: bergie, repository: midgardmvc_ui_create, branch: master}
+    midgardmvc_helper_forms:
+        - {type: github, user: feri, repository: midgardmvc_helper_forms, branch: master}
+    midgardmvc_helper_attachmentserver:
+    - {type: github, user: feri, repository: midgardmvc_helper_attachmentserver, branch: master}
+    hu_juhfark__website:
+        - {type: github, user: urho-eu, repository: hu_jufark_website, branch: master}
+    eu_urho_articles:
+        - {type: github, user: urho-eu, repository: eu_urho_articles, branch: master}
     org_midgardproject_news:
         - {type: github, user: urho-eu, repository: org_midgardproject_news, branch: master}
 
