@@ -31,6 +31,10 @@ color:#73953E;
 font-family:Verdana,Arial;
 font-size:14px;
 margin: 0 0 10px 0;
+background: url(../img/leaf.jpg);
+background-repeat: no-repeat;
+background-position: left bottom;
+padding: 0 0 0 30px;
 }
 
 h2 {
@@ -575,7 +579,6 @@ width: 25em;
 */
 }
 
-
 /* blogs */
 .hentry .published {
 display: block;
@@ -594,4 +597,24 @@ margin: 1em 0 1em 0;
 
 table.mceLayout {
 width: 420px;
+}
+
+ul.articles {
+padding: 0;
+margin: 0;
+}
+
+img[title="barrels.jpg"] {
+float: right;
+margin: 5px;
+}
+
+img[title="s1.jpg"] {
+float: left;
+margin: 5px;
+}
+
+article div.content {
+min-width: 100px;
+min-height: 100px;
 }
