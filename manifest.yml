@@ -10,7 +10,6 @@ authors:
         email: zoltan@bakter.hu
         url: http://juhfark.hu
 
-
 template_injector: hu_juhfark_website_injector
 
 extends: midgardmvc_core
