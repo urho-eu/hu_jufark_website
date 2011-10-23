@@ -24,12 +24,50 @@ components:
         - {type: github, user: bergie, repository: midgardmvc_ui_create, branch: master}
     org_midgardproject_news:
         - {type: github, user: urho-eu, repository: org_midgardproject_news, branch: master}
+
 nodes:
     title: Somlói Apátsági Pince
-    content: <p>Örülünk, hogy eljutott hozzánk a világhálón is!</p>
+    content:
     component: hu_juhfark_website
     children:
         news:
-            title: title_latest_news
-            content: latest news
+            title: title_news_page
+            content:
             component: org_midgardproject_news
+        aboutus:
+            title: title_aboutus_page
+            content:
+            component: eu_urho_articles
+        contactus:
+            title: title_contactus_page
+            content:
+            component: eu_urho_articles
+
+attachmentserver_variants:
+    thumbnail:
+        scale:
+            width: 142
+            height: 142
+    smallthumbnail:
+        scale:
+            width: 70
+            height: 70
+    medium:
+        scale:
+            width: 220
+            height: 220
+    view:
+        scale:
+            width: 380
+            height: 380
+
+workflows:
+    approve:
+        label: publish
+        provider: midgardmvc_ui_create_workflow_approve
+    unapprove:
+        label: unpublish
+        provider: midgardmvc_ui_create_workflow_unapprove
+    delete:
+        label: delete
+        provider: midgardmvc_ui_create_workflow_delete
