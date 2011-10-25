@@ -22,11 +22,11 @@ msgstr "Wines"
 msgid "title_blog_page"
 msgstr "Blog"
 
-msgid "title_aboutus_page"
+msgid "title_about_page"
 msgstr "About Us"
 
 msgid "title_news_page"
 msgstr "News"
 
-msgid "title_contactus_page"
+msgid "title_contact_page"
 msgstr "Contact Us"
