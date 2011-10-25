@@ -16,11 +16,7 @@ components:
         - {type: github, user: midgardproject, repository: midgardmvc_core, branch: master}
     midgardmvc_ui_create:
         - {type: github, user: bergie, repository: midgardmvc_ui_create, branch: master}
-    midgardmvc_helper_forms:
-        - {type: github, user: feri, repository: midgardmvc_helper_forms, branch: master}
-    midgardmvc_helper_attachmentserver:
-    - {type: github, user: feri, repository: midgardmvc_helper_attachmentserver, branch: master}
-    hu_juhfark__website:
+    hu_juhfark_website:
         - {type: github, user: urho-eu, repository: hu_jufark_website, branch: master}
     eu_urho_articles:
         - {type: github, user: urho-eu, repository: eu_urho_articles, branch: master}
@@ -36,12 +32,16 @@ nodes:
             title: title_news_page
             content:
             component: org_midgardproject_news
-        aboutus:
-            title: title_aboutus_page
+        about:
+            title: title_about_page
             content:
             component: eu_urho_articles
-        contactus:
-            title: title_contactus_page
+        contact:
+            title: title_contact_page
+            content:
+            component: eu_urho_articles
+        blog:
+            title: title_blog_page
             content:
             component: eu_urho_articles
 
