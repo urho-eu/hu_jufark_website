@@ -20,6 +20,9 @@ components:
         - {type: github, user: urho-eu, repository: hu_jufark_website, branch: master}
     eu_urho_articles:
         - {type: github, user: urho-eu, repository: eu_urho_articles, branch: master}
+    eu_urho_winery:
+        - {type: git, url: 'file:///home/sopi/work/midgard2/eu_urho_winery', branch: master}
+#        - {type: github, user: urho-eu, repository: eu_urho_winery, branch: master}
     org_midgardproject_news:
         - {type: github, user: urho-eu, repository: org_midgardproject_news, branch: master}
 
@@ -44,6 +47,10 @@ nodes:
             title: title_blog_page
             content:
             component: eu_urho_articles
+        wines:
+            title: title_wines_page
+            content:
+            component: eu_urho_winery
 
 attachmentserver_variants:
     thumbnail:
