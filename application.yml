@@ -15,7 +15,7 @@ components:
     midgardmvc_core:
         - {type: github, user: midgardproject, repository: midgardmvc_core, branch: master}
     midgardmvc_ui_create:
-        - {type: github, user: bergie, repository: midgardmvc_ui_create, branch: master}
+        - {type: github, user: midgardproject, repository: midgardmvc_ui_create, branch: widgetization}
     hu_juhfark_website:
         - {type: github, user: urho-eu, repository: hu_jufark_website, branch: master}
     eu_urho_articles:
